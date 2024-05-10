@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="passwordGnr.js"></script>
+<title></title>
+</head>
+<body>
+<form name="pwdGen">
+
+
+    <label>Bogstaver<input type="checkbox" id="chkBoxChars" name="group1" value="Bogstaver" checked="checked"/></label>
+    <label>Specialtegn<input type="checkbox" id="chkBoxSpecialChars" name="group1"  value="Specialtegn" /></label>
+    <label>Tal<input type="checkbox" id="chkBoxNumbers" name="group1"  value="Tal" /></label>
+    <dir>
+        Tegn:
+        <input type="text" value="5" name="pwdLength"/>
+    </dir>
+
+    <input type="button" id="btnGenerate" value="Generer kodeord" onClick="populateform(this.form.pwdLength.value)"/>
+    <div>
+        <p><label id="lblResult1"></label> <br/></p>
+
+        <p><label id="lblResult2"></label> <br/></p>
+        <p><label id="lblResult3"></label> <br/></p>
+    </div>
+
+
+
+</form>
+
+</body>
+</html>
