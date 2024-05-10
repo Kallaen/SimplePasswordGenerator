@@ -1,8 +1,3 @@
-/**
- * Created by root on 3/10/15.
- */
-
-
 function generatepass(plength){
     var keylist="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var specialChars="!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~£¨";
